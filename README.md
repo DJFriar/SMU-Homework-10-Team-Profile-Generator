@@ -8,10 +8,10 @@ Download the repo and run `npm install` from repo root. Then use `node app.js` t
 
 ## Usage
 
-A video of the app in action can be [found on YouTube](https://youtu.be/OIJzVAiUEbc)
+A video of the app in action can be found on [YouTube](https://youtu.be/OIJzVAiUEbc).
 ## Credits
 
-- How to use Inquirer.js [Mat Wilmot](https://medium.com/javascript-in-plain-english/how-to-inquirer-js-c10a4e05ef1f)
+- Mat Wilmot - [How to use Inquirer.js](https://medium.com/javascript-in-plain-english/how-to-inquirer-js-c10a4e05ef1f)
 
 ## License
 
