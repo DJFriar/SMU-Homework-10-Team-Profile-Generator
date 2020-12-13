@@ -122,19 +122,29 @@ const askManager = () => {
     .then((res) => {
       const intern = new Intern(res.internName, res.internId, res.internEmail, res.internSchool)
       team.push(intern);
+      console.log(intern);
       askWhatRole();
     });
   };
 
 const generatePage = () => {
-  // console.log("generatePage() reached");
-  render(team);
+  console.log(team);
+  const generatedHTML = render(team);
+  createTeamPage(generatedHTML);
 }
 
-  askManager()
-    // .then(() => {
-    //   render(team);
-    // })
-    // .catch((err) => {
-    //   console.log(err);
-    // });
+const createTeamPage = (htmlContent) => {
+  fs.writeFile(outputPath, htmlContent, "utf-8", (err) => {
+    if(err) throw err;
+    console.log("Team page has been created successfully.");
+  })
+}
+
+// Start the app by asking about the manager
+askManager()
+// .then(() => {
+//   render(team);
+// })
+// .catch((err) => {
+//   console.log(err);
+// });
