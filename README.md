@@ -2,20 +2,7 @@
 
 SMU Homework 10 - Team Profile Generator
 
-## To Do
+## Credits
 
-Manager's Name
-Manager's ID
-Manager's Email
-Manager's Office Number
-- Ask to add more or not
-Engineer name
-engineer id
-engineer email
-engineer github username
-- Ask to add more or not
-Intern name
-Intern id
-Intern email
-Intern school
-- No more team members
+- How to use Inquirer.js [Mat Wilmot](https://medium.com/javascript-in-plain-english/how-to-inquirer-js-c10a4e05ef1f)
+
